@@ -13,7 +13,7 @@ body{
 
 .cite{
     background: #E5E7EB;
-    padding: 0 20vh;
+    padding: 0 32vh;
 }
 
 .cta, button {
@@ -23,7 +23,8 @@ body{
 .header{
     display: flex;
     color: white;
-    padding: 0 20vh;
+    padding: 0 32vh;
+    justify-content: space-between;
 }
 
 ul{
@@ -32,9 +33,17 @@ ul{
     gap:16px;
 }
 
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
 a{
     text-decoration: none;
     color: white;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 100;
 }
 
 .main-text{
@@ -44,13 +53,42 @@ a{
 }
 
 .content{
-    padding: 0 20vh;
+    padding: 8vh 32vh;
+    display: flex;
+    justify-content: space-between;
 }
 
 .info{
-    padding: 0 20vh;
+    padding: 0 32vh;
 }
 
 .cta{
-    padding: 0 20vh;
+    padding: 0 32vh;
+}
+
+button{
+    padding: 8px 32px;
+    color: white;
+    font-weight: 500;
+    border-radius: 1vw;
+    border-style: hidden;
+    max-width: 12vh;
+}
+
+.img{
+    background: #505a74;
+    color:#E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:  8vh 16vh;
+
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    max-width: 40vh;
+    color: #E5E7EB;
+    gap: 16px;
 }
