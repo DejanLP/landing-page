@@ -67,13 +67,13 @@ a{
 }
 
 button{
-    padding: 8px 32px;
+    padding: 8px 24px;
     color: white;
     font-weight: 500;
     border: 2px solid transparent;
     border-radius: 8px;
     cursor: pointer;
-    max-width: 12vh;
+    max-width: 112px;
 }
 
 .b2{
@@ -86,14 +86,14 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:  8vh 16vh;
+    padding:  96px;
 
 }
 
 .description{
     display: flex;
     flex-direction: column;
-    max-width: 40vh;
+    max-width: 400px;
     color: #E5E7EB;
     gap: 16px;
 }
@@ -139,4 +139,13 @@ button{
 
 .text{
     color: #505a74;
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4vh;
+    color:white;
+    font-weight: 100;
 }
