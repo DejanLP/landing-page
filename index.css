@@ -70,9 +70,14 @@ button{
     padding: 8px 32px;
     color: white;
     font-weight: 500;
+    border: 2px solid transparent;
     border-radius: 8px;
-    border-style: hidden;
+    cursor: pointer;
     max-width: 12vh;
+}
+
+.b2{
+    border-color: white;
 }
 
 .img{
@@ -112,6 +117,7 @@ button{
 .info{
     display: flex;
     gap: 60px;
+    flex-wrap: wrap;
 }
 
 .info div{
