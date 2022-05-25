@@ -11,9 +11,12 @@ body{
     background: #1F2937;
 }
 
+.info, .cta, .cite, .header{
+    padding: 0 32vh;
+}
+
 .cite{
     background: #E5E7EB;
-    padding: 0 32vh;
 }
 
 .cta, button {
@@ -23,7 +26,6 @@ body{
 .header{
     display: flex;
     color: white;
-    padding: 0 32vh;
     justify-content: space-between;
 }
 
@@ -56,14 +58,6 @@ a{
     padding: 8vh 32vh;
     display: flex;
     justify-content: space-between;
-}
-
-.info{
-    padding: 0 32vh;
-}
-
-.cta{
-    padding: 0 32vh;
 }
 
 button{
@@ -125,7 +119,7 @@ button{
 }
 
 .card{
-    display: flex;;
+    display: flex;
     width: 150px;
     height: 150px;
     border: #3882F6 solid;
@@ -135,7 +129,6 @@ button{
 .info-container{
     max-width: 150px;
 }
-
 
 .text{
     color: #505a74;
